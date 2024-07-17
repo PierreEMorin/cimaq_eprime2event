@@ -400,7 +400,9 @@ def extract_taskFile(bID, sID, file_list, output):
     # export encMain and retriev into tsv files (output directorty)
     encMain.to_csv(output+'/sub-'+bID+'_ses-'+sID+'_task-memory_events.tsv',
                    sep='\t', header=True, index=False)
-    retriev.to_csv(output+'/PostScanBehav_pscid'+bID+'_dccid'+sID+'.tsv',
+    #retriev.to_csv(output+'/PostScanBehav_pscid'+bID+'_dccid'+sID+'.tsv',
+    #               sep='\t', header=True, index=False)
+    retriev.to_csv(output+'/sub-'+bID+'_ses'+sID+'post-scan-behav.tsv',
                    sep='\t', header=True, index=False)
 
 
