@@ -19,7 +19,7 @@ It Two .tsv files per participant
 This file is used to create event files in Nistats/Nilearn (to label fMRI frames)
 Note: the TaskFile_headers_CIMAQ_memory.json file describes the metrics found in each column.
 
-- PostScanBehav_pscid*_dccid**.tsv (* = pscid, ** = dccid)
+- `sub-**-ses-*_post-scan-behav.tsv` (** = dccid, * = session ID)
 
 This file is to assess a participant's performance on the post-scan
 memory task (image and source recognition).
